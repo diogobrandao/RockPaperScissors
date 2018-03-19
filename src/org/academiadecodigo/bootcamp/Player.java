@@ -2,7 +2,7 @@ package org.academiadecodigo.bootcamp;
 
 public class Player {
     private String name;
-
+    //private int victories = 0;
     public Player(String name) {
 
         this.name = name;
@@ -14,6 +14,8 @@ public class Player {
 
     }
 
+    //public void win(){
+    //  victories++;
 
     public String getName()
     {
